@@ -16,7 +16,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "IBMA - Igreja Batista Manancial no Angelim",
-  description: "Venha fazer parte da nossa família! Igreja Batista Manancial no Angelim - Um lugar de vida e esperança.",
+  description:
+    "Venha fazer parte da nossa família! Igreja Batista Manancial no Angelim - Um lugar de vida e esperança.",
 };
 
 export default function RootLayout({

@@ -1,14 +1,14 @@
-"use client"
+"use client";
 
-import * as React from "react"
-import Link from "next/link"
-import { usePathname } from "next/navigation"
-import { cn } from "@/lib/utils"
-import { Button } from "@/components/ui/button"
-import { Church } from "lucide-react"
+import * as React from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
+import { Church } from "lucide-react";
 
 export function MainNav() {
-  const pathname = usePathname()
+  const pathname = usePathname();
 
   const routes = [
     {
@@ -35,7 +35,7 @@ export function MainNav() {
       href: "/contato",
       label: "Contato",
     },
-  ]
+  ];
 
   return (
     <header className="sticky top-0 z-50 w-full px-5 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -53,7 +53,7 @@ export function MainNav() {
                 "text-sm font-medium transition-colors hover:text-primary",
                 pathname === route.href
                   ? "text-foreground"
-                  : "text-foreground/60"
+                  : "text-foreground/60",
               )}
             >
               {route.label}
@@ -67,5 +67,5 @@ export function MainNav() {
         </div>
       </div>
     </header>
-  )
+  );
 }

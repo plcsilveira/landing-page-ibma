@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex flex-col">
-       <section className="relative h-[600px] px-5">
+      <section className="relative h-[600px] px-5">
         <div className="absolute inset-0">
           <Image
             src="https://images.adsttc.com/adbr001cdn.archdaily.net/wp-content/uploads/2012/02/1329664061_690_cruz_18_pjtpresbiterio_picture.jpg"
@@ -36,16 +36,22 @@ export default function Home() {
 
       <section className="py-16 bg-muted/50 px-5">
         <div className="container">
-          <h2 className="text-3xl font-bold text-center mb-12">Próximos Eventos</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">
+            Próximos Eventos
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card>
               <CardContent className="pt-6">
                 <Calendar className="h-10 w-10 mb-4 text-primary" />
-                <h3 className="text-xl font-semibold mb-2">Culto de Celebração</h3>
+                <h3 className="text-xl font-semibold mb-2">
+                  Culto de Celebração
+                </h3>
                 <p className="text-muted-foreground mb-4">
                   Domingo às 18h - Um tempo especial de adoração e palavra
                 </p>
-                <Button variant="secondary" className="w-full">Saiba Mais</Button>
+                <Button variant="secondary" className="w-full">
+                  Saiba Mais
+                </Button>
               </CardContent>
             </Card>
             <Card>
@@ -55,7 +61,9 @@ export default function Home() {
                 <p className="text-muted-foreground mb-4">
                   Quarta às 19h30 - Momento de buscar a Deus em oração
                 </p>
-                <Button variant="secondary" className="w-full">Saiba Mais</Button>
+                <Button variant="secondary" className="w-full">
+                  Saiba Mais
+                </Button>
               </CardContent>
             </Card>
             <Card>
@@ -65,39 +73,54 @@ export default function Home() {
                 <p className="text-muted-foreground mb-4">
                   Domingo às 9h - Aprendendo mais da Palavra de Deus
                 </p>
-                <Button variant="secondary" className="w-full">Saiba Mais</Button>
+                <Button variant="secondary" className="w-full">
+                  Saiba Mais
+                </Button>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="pt-6">
-                 <MapPin className="h-10 w-10 mb-4 text-primary" />
-                 <h3 className="text-x1 font-semibold mb-2">Encontro de Jovens</h3>
-                 <p className="text-muted-foreground mb-4">
-                   Sabado às 19:30 - Celebrando com os jovens tendo palavra e dinâmica em foco na Palavra de Deus
-                 </p>
-                 <Button variant="secondary" className="w-full">Saiba Mais</Button>
+                <MapPin className="h-10 w-10 mb-4 text-primary" />
+                <h3 className="text-x1 font-semibold mb-2">
+                  Encontro de Jovens
+                </h3>
+                <p className="text-muted-foreground mb-4">
+                  Sabado às 19:30 - Celebrando com os jovens tendo palavra e
+                  dinâmica em foco na Palavra de Deus
+                </p>
+                <Button variant="secondary" className="w-full">
+                  Saiba Mais
+                </Button>
               </CardContent>
-           </Card>
+            </Card>
           </div>
         </div>
       </section>
 
       <section className="py-16 bg-primary text-primary-foreground">
         <div className="container text-center">
-          <h2 className="text-3x1 font-bold mb-4">Descubra mais sobre as programações da Nossa Igreja</h2>
+          <h2 className="text-3x1 font-bold mb-4">
+            Descubra mais sobre as programações da Nossa Igreja
+          </h2>
           <p className="text-x1 mb-8 max-w-2x1 mx-auto">
-            Visite a nossa igreja para você ter o arrependimento verdadeiro em Jesus Cristo, a renovação do Espirito Santo de Deus em sua vida e participar de evangelismos na comunidade, tendo um manancial no Angelim para pregar as boas novas do Salvador!
+            Visite a nossa igreja para você ter o arrependimento verdadeiro em
+            Jesus Cristo, a renovação do Espirito Santo de Deus em sua vida e
+            participar de evangelismos na comunidade, tendo um manancial no
+            Angelim para pregar as boas novas do Salvador!
           </p>
           <Button variant="secondary" size="lg" asChild>
-             <Link href="/sobre">Conheça mais das Programações</Link>
+            <Link href="/sobre">Conheça mais das Programações</Link>
           </Button>
         </div>
       </section>
       <section className="py-16 bg-primary text-primary-foreground">
         <div className="container text-center">
-          <h2 className="text-3xl font-bold mb-4">Faça Parte da Nossa Família</h2>
+          <h2 className="text-3xl font-bold mb-4">
+            Faça Parte da Nossa Família
+          </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Venha conhecer nossa igreja e fazer parte desta família. Temos um lugar especial para você!
+            Venha conhecer nossa igreja e fazer parte desta família. Temos um
+            lugar especial para você!
           </p>
           <Button variant="secondary" size="lg" asChild>
             <Link href="/contato">Entre em Contato</Link>
