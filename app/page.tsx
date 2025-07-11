@@ -68,10 +68,31 @@ export default function Home() {
                 <Button variant="secondary" className="w-full">Saiba Mais</Button>
               </CardContent>
             </Card>
+            <Card>
+              <CardContent className="pt-6">
+                 <MapPin className="h-10 w-10 mb-4 text-primary" />
+                 <h3 className="text-x1 font-semibold mb-2">Encontro de Jovens</h3>
+                 <p className="text-muted-foreground mb-4">
+                   Sabado às 19:30 - Celebrando com os jovens tendo palavra e dinâmica em foco na Palavra de Deus
+                 </p>
+                 <Button variant="secondary" className="w-full">Saiba Mais</Button>
+              </CardContent>
+           </Card>
           </div>
         </div>
       </section>
 
+      <section className="py-16 bg-primary text-primary-foreground">
+        <div className="container text-center">
+          <h2 className="text-3x1 font-bold mb-4">Descubra mais sobre as programações da Nossa Igreja</h2>
+          <p className="text-x1 mb-8 max-w-2x1 mx-auto">
+            Visite a nossa igreja para você ter o arrependimento verdadeiro em Jesus Cristo, a renovação do Espirito Santo de Deus em sua vida e participar de evangelismos na comunidade, tendo um manancial no Angelim para pregar as boas novas do Salvador!
+          </p>
+          <Button variant="secondary" size="lg" asChild>
+             <Link href="/sobre">Conheça mais das Programações</Link>
+          </Button>
+        </div>
+      </section>
       <section className="py-16 bg-primary text-primary-foreground">
         <div className="container text-center">
           <h2 className="text-3xl font-bold mb-4">Faça Parte da Nossa Família</h2>
